@@ -1,0 +1,31 @@
+.video-card {
+    .video-image{
+        overflow: hidden;
+        span{
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            color: white;
+            background: rgba(0,0,0,.8);
+            padding: 2px 10px;
+            border-radius: 4px;
+            font-size: .8rem;
+        }
+        img{
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    h3{
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin: 0;
+        margin-top: 1rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    h4{
+         font-size: 0.8rem;
+         margin-top: 0;
+    }
+}

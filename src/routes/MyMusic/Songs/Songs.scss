@@ -1,0 +1,41 @@
+table{
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+    overflow-y: scroll;
+    th{
+        text-align: left;
+        font-weight: 400;
+        padding: 10px;    
+        position: relative;
+    }
+
+    td,th{
+        white-space: nowrap;
+        text-overflow: ellipsis;
+         max-width: 185px;
+        overflow: hidden;
+    }
+    
+    tr:nth-child(odd){
+        background-color: var(--extralight);
+    }
+    tr:hover{
+        background-color: var(--light);
+        .submenu{
+            display: flex;
+            transition: all ease .2s;
+        }
+    }
+    td{
+        padding: 15px;
+        font-size: .9rem;
+        button{
+            height: 100%;
+            padding: 0 15px;
+            i{
+                line-height: 2;
+            }
+        }
+    }
+}

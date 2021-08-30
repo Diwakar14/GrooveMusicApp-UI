@@ -1,0 +1,19 @@
+.album-card{
+    .album-image{
+        width: 150px;
+        img{
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    h3{
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin: 0;
+        margin-top: 1rem;
+    }
+    h4{
+         font-size: 0.8rem;
+         margin-top: 0;
+    }
+}

@@ -1,0 +1,87 @@
+:root{
+    --primary:#ccc;
+    --secondary:#D1D1D1;
+    --white:#fff;
+    --black:#000;
+    --light:#ddd;
+    --extralight: #eee;
+    --text-color:#808080;
+    --routeHeadingFont:'Open sans', sans-serif;
+}
+
+a{
+    color: var(--black);
+    text-decoration: none;
+}
+
+input[type=search]{
+    padding: 10px 10px;
+    background-color: var(--white);
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 500;
+    background-color: var(--light);
+    &:focus{
+        background-color: var(--white);
+    }
+}
+
+button{
+    i{
+        font-size: 22px;
+    }
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-family: var(--routeHeadingFont);
+    cursor: pointer;
+    &:hover{
+        background-color: var(--primary);
+    }
+    &:active{
+        background-color: var(--secondary);
+    }
+}
+
+.btn-primary{
+    padding: 8px 15px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+
+h1,h3,h4{
+    font-family: var(--routeHeadingFont);
+    font-weight: 100;
+    margin: .5rem 0;
+}
+
+h3{
+    
+    font-weight: 400;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary);
+}
